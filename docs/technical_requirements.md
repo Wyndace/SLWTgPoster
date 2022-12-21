@@ -228,5 +228,14 @@
   </tr>
  </table>
 
+----
+
+<table style="margin-left: auto; margin-right: auto;">
+  <tr><th>Оповощение пользователей</th></tr>
+  <tr>
+    <td>id пользователя (int references users(id))</td>
+  </tr>
+ </table>
+
 Таблички Б/Д в виде блок-схем:
 ![Таблицы б/Д картинкой](https://github.com/Wyndace/SLWTgPoster/blob/main/docs/image.png?raw=true)
