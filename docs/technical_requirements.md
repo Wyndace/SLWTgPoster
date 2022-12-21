@@ -238,4 +238,5 @@
  </table>
 
 Таблички Б/Д в виде блок-схем:
+
 ![Таблицы б/Д картинкой](https://github.com/Wyndace/SLWTgPoster/blob/main/docs/image.png?raw=true)
