@@ -226,3 +226,6 @@
     <td>Тип шаблона (int references template_types(id))</td>
   </tr>
  </table>
+
+Таблички Б/Д в виде блок-схем:
+![Таблицы б/Д картинкой](https://github.com/Wyndace/SLWTgPoster/blob/main/docs/image.png?raw=true)
