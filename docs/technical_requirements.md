@@ -200,3 +200,29 @@
   </tr>
  </table>
 
+----
+
+<table style="margin-left: auto; margin-right: auto;">
+  <tr><th>Типы шаблонов</th></tr>
+  <tr>
+    <td>id типа (Pkey, Unic)</td>
+  </tr>
+  <tr>
+    <td>Название типа (varchar255)</td>
+  </tr>
+ </table>
+
+----
+
+<table style="margin-left: auto; margin-right: auto;">
+  <tr><th>Шаблон поста</th></tr>
+  <tr>
+    <td>id шаблона (Pkey, Unic)</td>
+  </tr>
+  <tr>
+    <td>Текст шаблона (text)</td>
+  </tr>
+  <tr>
+    <td>Тип шаблона (int references template_types(id))</td>
+  </tr>
+ </table>
