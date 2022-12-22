@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "slwtgposter"
+version = "0.1.0"
+description = "Just a Telegram Bot for posting in Telegram Channels"
+authors = ["Васильев Александр <wyndace.av@ya.ru>"]
+maintainers = ["Васильев Александр <wyndace.av@ya.ru>"]
+homepage = "https://github.com/Wyndace/SLWTgPoster"
+repository = "https://github.com/Wyndace/SLWTgPoster"
+keywords = ["python", "telegram", "postgresql", "alembic", "sqlalchemy"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
