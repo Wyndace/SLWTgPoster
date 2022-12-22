@@ -419,5 +419,12 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jetbrains+all,visualstudiocode,vim,emacs,windows,macos,linux
 
-# Start of SLWTgPoster's gititgnore
-# End of SLWTgPoster's gititgnore
+# <SLWTgPoster's gititgnore>
+
+# <Variables in Virtual Environment>
+
+.envrc
+
+# </Variables in Virtual Environment>
+
+# </SLWTgPoster's gititgnore>
