@@ -15,3 +15,10 @@ class User(Base):
     phone = Column(DECIMAL(30), nullable=False)
     username = Column(VARCHAR(255), nullable=True)
     is_author = Column(Boolean, default=False, nullable=False)
+
+
+class UsersNotify(Base):
+    __tablename__ = 'users_notify'
+
+    id = Column(Integer, ForeignKey('users.id', ondelete='CASCADE'),
+                nullable=False, index=True)
